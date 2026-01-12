@@ -1,10 +1,15 @@
 import './App.css'
+import Actor from './Component/Actor';
 
 function App() {
 
+  const actors = [ 'A','B','C'];
+
   return (
     <>
-
+  {
+    actors.map(actor=><Actor actor={actor}></Actor>)
+  }
 
     {/* General */}
      <Person></Person>

@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const Actor = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+const Actor = ({ actor }) => {
+  return <li>Name: {actor}</li>;
 };
 
 export default Actor;
